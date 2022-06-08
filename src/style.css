@@ -1,0 +1,92 @@
+body {
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+  top: 40%;
+  left: 45%;
+}
+
+.mainDiv {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-size: 5rem;
+  height: 10rem;
+  width: 10rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: rgb(49, 123, 214);
+  color: beige;
+}
+
+/* 
+.container {
+  position: relative;
+  display: flex;
+  justify-content: space-between !important;
+  top: 1rem;
+} */
+
+.result {
+  position: relative;
+  top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+
+.plus {
+  position: relative;
+  background-color: aliceblue;
+  color: rgb(15, 103, 171);
+  height: 4rem;
+  width: 4rem;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 2.5rem;
+}
+
+.minus {
+  position: relative;
+  height: 4rem;
+  width: 4rem;
+  color: rgb(15, 103, 171);
+  background-color: aliceblue;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 2.5rem;
+}
+
+.fa-plus {
+  /* left: calc(-50% + 20px);
+  top: 50%;
+  transform: translate(calc(50% - 10px), 50%); */
+  margin-left: -100%;
+  margin-top: 100%;
+  position: absolute;
+  font-size: 60px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(15, 103, 171);
+  color: aliceblue;
+}
+.fa-minus {
+  /* left: 100%;
+  top: 50%;
+  transform: translate(-50%, 50%); */
+  margin-left: 100%;
+  margin-top: 100%;
+
+  position: absolute;
+  font-size: 60px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(15, 103, 171);
+  color: aliceblue;
+}
